@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D305C951-009E-4FA6-9A51-A692FF8714F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{806D80B1-844A-4649-A56A-92379418862D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reference.LocationService.Domain", "Reference.LocationService.Domain\Reference.LocationService.Domain.csproj", "{3C847811-61A7-4E88-9DBB-424342E28BBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reference.LocationService.Application", "Reference.LocationService.Application\Reference.LocationService.Application.csproj", "{51AF7AE7-F341-4AEE-BAAD-BB3C430F5147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reference.LocationService.Application.Contract", "Reference.LocationService.Application.Contract\Reference.LocationService.Application.Contract.csproj", "{9A9D989C-5300-40B4-8118-CB78EF937C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reference.LocationService.Infrastructure", "Reference.LocationService.Infrastructure\Reference.LocationService.Infrastructure.csproj", "{93C0F024-5486-4BC7-9A01-D29843F095B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reference.LocationService.WebAPI", "Reference.LocationService.WebAPI\Reference.LocationService.WebAPI.csproj", "{F8021922-D2A9-4B99-B979-0EAF5E612D0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C847811-61A7-4E88-9DBB-424342E28BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C847811-61A7-4E88-9DBB-424342E28BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C847811-61A7-4E88-9DBB-424342E28BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C847811-61A7-4E88-9DBB-424342E28BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51AF7AE7-F341-4AEE-BAAD-BB3C430F5147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51AF7AE7-F341-4AEE-BAAD-BB3C430F5147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51AF7AE7-F341-4AEE-BAAD-BB3C430F5147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51AF7AE7-F341-4AEE-BAAD-BB3C430F5147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A9D989C-5300-40B4-8118-CB78EF937C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A9D989C-5300-40B4-8118-CB78EF937C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A9D989C-5300-40B4-8118-CB78EF937C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A9D989C-5300-40B4-8118-CB78EF937C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C0F024-5486-4BC7-9A01-D29843F095B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C0F024-5486-4BC7-9A01-D29843F095B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C0F024-5486-4BC7-9A01-D29843F095B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C0F024-5486-4BC7-9A01-D29843F095B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8021922-D2A9-4B99-B979-0EAF5E612D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8021922-D2A9-4B99-B979-0EAF5E612D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8021922-D2A9-4B99-B979-0EAF5E612D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8021922-D2A9-4B99-B979-0EAF5E612D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C847811-61A7-4E88-9DBB-424342E28BBA} = {D305C951-009E-4FA6-9A51-A692FF8714F4}
+		{51AF7AE7-F341-4AEE-BAAD-BB3C430F5147} = {D305C951-009E-4FA6-9A51-A692FF8714F4}
+		{9A9D989C-5300-40B4-8118-CB78EF937C39} = {D305C951-009E-4FA6-9A51-A692FF8714F4}
+		{93C0F024-5486-4BC7-9A01-D29843F095B8} = {D305C951-009E-4FA6-9A51-A692FF8714F4}
+		{F8021922-D2A9-4B99-B979-0EAF5E612D0A} = {D305C951-009E-4FA6-9A51-A692FF8714F4}
+	EndGlobalSection
+EndGlobal
