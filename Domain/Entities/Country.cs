@@ -1,4 +1,4 @@
-﻿namespace Reference.LocationService.Domain.Entities;
+﻿namespace Domain.Entities;
 
 public class Country : BaseEntity
 {
